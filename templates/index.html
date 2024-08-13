@@ -1,11 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9;
+            color: #333;
+        }
+
+        header {
+            background-color: #388e3c;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #c8e6c9;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #388e3c;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.5rem;
+            color: #388e3c;
+            text-decoration: none;
+            border: 1px solid #388e3c;
+            border-radius: 4px;
+        }
+
+        .social-links a:hover {
+            background-color: #a5d6a7;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<h1>Minha página pessoal</h1>
+    <header>
+        <h1>Minhas informações pessoais</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#interesses">Interesses</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é João Ribeiro. Sou um estudante dedicado. Tenho uma paixão por futebol, e estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.</p>
+        </section>
+
+        <section id="interesses">
+            <h2>Meus Interesses</h2>
+            <p>Estou interessado em: evoluir</p>
+            <ul>
+                <li>Desenvolvimento Web</li>
+                <li>Design Gráfico</li>
+                <li>Fotografia</li>
+                <li>Viagens e Aventuras</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você pode me encontrar nas redes sociais ou entrar em contato pelo e-mail abaixo:</p>
+            <p>Email: <a href="joaoribeirosenai@gmail.com">seuemail@example.com</a></p>
+            <div class="social-links">
+                <a href="https://github.com/joaovictorr001" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site Pessoal. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
